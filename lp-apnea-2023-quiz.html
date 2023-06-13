@@ -1,0 +1,80 @@
+<h1>Sedation Dentistry Quiz</h1>
+
+<div class="sedation-quiz">
+	<form action="https://tnt-adder.herokuapp.com/submit/1ceb41f5-1391-4d48-9d4f-2e89e3753c87" class="forms" method="post">
+		<table>
+			<thead>
+				<tr class="top-answers">
+					<th></th>
+					<th>Yes</th>
+					<th>No</th>
+				</tr>
+			</thead>
+			<tr>
+				<td><label for="slight_uneasiness">Do you feel slight uneasiness and tension the evening prior to your dental visit, which makes you consider canceling your dental appointment?</label></td>
+				<td><input id="slight_uneasiness" name="slight_uneasiness" type="radio" value="yes"></td>
+				<td><input id="slight_uneasiness" name="slight_uneasiness" type="radio" value="no"></td>
+			</tr>
+			<tr>
+				<td><label for="reception">While waiting in the reception area of the dental office, do you feel nervous about the visit? </label></td>
+				<td><input id="reception" name="reception" type="radio" value="yes"></td>
+				<td><input id="reception" name="reception" type="radio" value="no"></td>
+			</tr>
+			<tr>
+				<td><label for="prior_dental">Have you had a prior dental experience that was unpleasant? </label></td>
+				<td><input id="prior_dental" name="prior_dental" type="radio" value="yes"></td>
+				<td><input id="prior_dental" name="prior_dental" type="radio" value="no"></td>
+			</tr>
+			<tr>
+				<td><label for="anxious">While in the dental chair, do you feel uneasy and anxious? </label></td>
+				<td><input id="anxious" name="anxious" type="radio" value="yes"></td>
+				<td><input id="anxious" name="anxious" type="radio" value="no"></td>
+			</tr>
+			<tr>
+				<td><label for="instruments">Does seeing the dentist or dental hygienist"s instruments make you anxious? </label></td>
+				<td><input id="instruments" name="instruments" type="radio" value="yes"></td>
+				<td><input id="instruments" name="instruments" type="radio" value="no"></td>
+			</tr>
+			<tr>
+				<td><label for="worst_mouth">Do you feel embarrassed that the dentist will say you have the worst mouth they have ever seen? </label></td>
+				<td><input id="worst_mouth" name="worst_mouth" type="radio" value="yes"></td>
+				<td><input id="worst_mouth" name="worst_mouth" type="radio" value="no"></td>
+			</tr>
+<tr>
+				<td><label for="avoid_dentist">Have you ever tolerated your dental pain just to avoid a visit to the dentist? </label></td>
+				<td><input id="avoid_dentist" name="avoid_dentist" type="radio" value="yes"></td>
+				<td><input id="avoid_dentist" name="avoid_dentist" type="radio" value="no"></td>
+			</tr>
+<tr>
+				<td><label for="fear">Do you feel that dentists do not take your worries (fears) seriously? </label></td>
+				<td><input id="fear" name="fear" type="radio" value="yes"></td>
+				<td><input id="fear" name="fear" type="radio" value="no"></td>
+			</tr>
+<tr>
+				<td><label for="treatment">Do you feel that if you were to indicate that a treatment hurts, that the dentist would stop and try to correct the problem? </label></td>
+				<td><input id="treatment" name="treatment" type="radio" value="yes"></td>
+				<td><input id="treatment" name="treatment" type="radio" value="no"></td>
+			</tr>
+<tr>
+				<td><label for="chair">Do you feel that when you're in the chair that the treatment can't be interrupted, if you need a moment to rest? </label></td>
+				<td><input id="chair" name="chair" type="radio" value="yes"></td>
+				<td><input id="chair" name="chair" type="radio" value="no"></td>
+			</tr>
+		</table>
+
+<table>
+		<label for="first_name">First Name*</label>
+		<input id="first_name" name="first_name" required="true" type="text" placeholder="John">
+		<label for="last_name">Last Name</label>
+		<input id="last_name" name="last_name" type="text" placeholder="Smith"><br>
+		<label for="email">Email Address*</label>
+		<input id="email" name="email" required="true" type="email" placeholder="john@gmail.com">
+		<label for="phone">Phone Number</label>
+		<input id="phone" name="phone" type="tel" required="true" placeholder="555-555-5555"><br>
+        </table>
+
+		<input name="Submit" type="submit" value="Submit">
+		<input name="_redirect" type="hidden" value="thanks.html">
+		<input name="_subject" type="hidden" value="LP Sleep Apnea Quiz">
+	</form>
+</div>
