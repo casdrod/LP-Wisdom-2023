@@ -359,7 +359,7 @@ footer{padding:0 10px;position:relative;text-align:center; background-color: #fa
 #footer-content{max-width:1300px;background-color: #fafafa;margin:auto;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:60px 10px;}
 .contact-form .simple{margin:auto}
 .line{display:inline-block;width:2px;margin:auto;height:273px;background-color:#000}
-.hours{color:#333;font:400 15px/34px Lato,sans-serif;max-width:260px;margin:10px auto;text-align:left;display:table}
+.hours{color:#333;font:400 15px/34px Lato,sans-serif;max-width:260px;margin:10px auto 30px;text-align:left;display:table}
 .hours label{width:110px; float: left; text-align:left;font-weight: 700;display:inline-block;width:120px;text-align:left}
 .started{-webkit-box-flex:1;-ms-flex:0 1 545px;flex:0 1 545px;padding:0 20px 10px;text-align:center;align-self:center;color:#fff}
 footer h2{text-shadow:0 0 40px rgba(255,255,255,0.56);text-align:left;color:#000; letter-spacing: -0.96px; font-family: $font2; margin-top: -15px;}
@@ -387,9 +387,9 @@ footer h3 {letter-spacing: 0.5px; font-size: 20px; font-family: $font2; color: #
         label {display: none;}
         input {height: 50px;}
         textarea { height: 200px; margin-bottom: 30px; padding-top: 10px;}
-        input, textarea {width: 350px}
+        input, textarea {width: 450px}
     }
-    .btn {width: 160px;}
+    .btn {min-width: 450px;}
 }
 
 hr {
