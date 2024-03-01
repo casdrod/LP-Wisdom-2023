@@ -454,6 +454,8 @@ hr {
 	}
 }
 @media(max-width: 1000px) {
+    #landing-page-form .simple input,#landing-page-form .simple textarea{width:350px;}
+  #landing-page-form .btn {min-width: 300px;}
     hr {display: block; max-width: 95%; }
     #nav {padding: 0; -ms-flex-pack: distribute; justify-content: space-around; display: flex; flex-wrap:wrap;}
     #nav #header-details {flex: 100%; margin: 20px 0 5px;}
@@ -567,8 +569,7 @@ hr {
     #banner {
         h1 {line-height: 40px;}
     }
-    #banner #info-bar span {display:block;font-size: 19px;}
-    #banner #info-bar span:nth-of-type(even) {display:none;}
+    #banner #info-bar span {font-size: 17px;font-weight: 700;margin: 0;}
     #banner figure {max-width: 100%;}
     .line {display: none;}
     #where .contain {display: block; padding: 25px;}
